@@ -10,10 +10,10 @@ import time
 
 
 # Router IP Address
-ROUTER_IP = "10.0.5.1"
+ROUTER_IP = "192.168.100.1"
 
 # MySQL configuration
-DB_HOST = "10.0.5.236"
+DB_HOST = "192.168.100.176"
 DB_USER = "netify"
 DB_PASSWORD = "netify"
 DB_NAME = "netifyDB"
