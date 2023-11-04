@@ -21,7 +21,7 @@ DB_TABLE = "netify"
 
 
 # GeoIP database file and license
-DOWNLOAD_NEW_DB = "yes"  # Set to "yes" to download the new database, set to "no" to skip DB download
+DOWNLOAD_NEW_DB = "no"  # Set to "yes" to download the new database, set to "no" to skip DB download
 license_key = "YOUR-KEY"
 database_type = "GeoLite2-City"
 download_url = f"https://download.maxmind.com/app/geoip_download?edition_id={database_type}&license_key={license_key}&suffix=tar.gz"
